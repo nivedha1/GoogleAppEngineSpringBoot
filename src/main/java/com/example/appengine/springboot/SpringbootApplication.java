@@ -30,7 +30,7 @@ public class SpringbootApplication {
     SpringApplication.run(SpringbootApplication.class, args);
   }
 
-  @GetMapping("/hii")
+  @GetMapping("/hello")
   public String hello() {
     return "Hello world!";
   }
