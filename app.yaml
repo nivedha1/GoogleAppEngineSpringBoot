@@ -20,4 +20,4 @@ instance_class: F1
 env_variables:
   JAVA_TOOL_OPTIONS: "-XX:MaxRAM=256m -XX:ActiveProcessorCount=2 -Xmx32m"
 # [END gae_java11_helloworld_yaml]
-entrypoint: java -noverify -jar /workspace/target/TestNivedha-0.1.jar
+entrypoint: java -noverify -jar TestNivedha-0.1.jar
